@@ -1,0 +1,30 @@
+@import './Colors.scss';
+nav{
+    // background-color: #000;
+    background:transparent;
+    // filter: blur(5px);
+    backdrop-filter: blur(5px);
+    height: 60px;
+    width: calc(100vw - 8rem);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 4rem 0rem 4rem;
+    z-index: 100;
+    position: fixed;
+    // top: 20px;
+
+    // color: $Text;
+    img{
+        height: 80px;
+        // width: 200px;
+        // padding: 1rem;
+        // margin: 3rem;
+    }
+    a{
+        color: $Text;
+        text-decoration: none;
+        padding: 0 1rem;
+        font-size: 1rem;
+    }
+}

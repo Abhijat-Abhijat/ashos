@@ -1,0 +1,46 @@
+@import "./Colors.scss";
+
+footer{
+    color: $Text;
+    font-size: 1.2rem;
+    font-weight: 100;
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: -10px -10px 20px 10px $Subtext1,
+        10px 10px 20px 10px $Subtext1;
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        // justify-content: space-between;
+        // align-items: center;
+        // margin: 1rem;
+        // padding: 1rem;
+        // background-color: $Crust;
+        .col{
+            margin: 1rem;
+            width: 14vw;
+            img{
+                width: 100px;
+                height: 100px;
+            }
+            .links{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                // align-items: center;
+                // margin: 1rem;
+                a{
+                    text-decoration: none;
+                    color: $Text;
+                    margin: 1rem 0;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}

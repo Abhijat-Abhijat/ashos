@@ -1,0 +1,198 @@
+@import "./Colors.scss";
+$BG: linear-gradient(90deg, #833ab4 0%, #fddc1d 88%, #ff9500 100%);
+$fire: linear-gradient(0deg,
+        rgba(236, 221, 66, 1) 10%,
+        rgba(237, 174, 52, 1) 15%,
+        rgba(237, 100, 52, 1) 50%,
+        rgba(250, 71, 8, 1) 59%);
+
+.home {
+    background-color: $Crust;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+    .home__left {
+        h1 {
+            font-size: 2rem;
+            color: $Text;
+            width: 40vw;
+        }
+
+        p {
+            font-size: 1.4rem;
+            color: $Subtext1;
+            width: 40vw;
+            text-align: justify;
+        }
+
+        .home__left__buttons {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2rem;
+            a {
+                color: $Text;
+                text-decoration: none;
+                padding: 1rem;
+                margin: 20px;
+                border: 3px solid $Text;
+                border-radius: 10px;
+                font-size: 1rem;
+                &:hover {
+                    background-color: $Text;
+                    color: $Crust;
+                    padding: 0.75rem 1rem;
+                    box-shadow: 2px 2px 2px 3px rgba(233, 227, 227, 0.2);
+                    transition: all 0.3s ease;
+                }
+            }
+        }
+    }
+
+    .home_right {
+        img {
+            position: relative;
+            z-index: 2;
+            width: 20vw;
+            padding: 0 3rem;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+
+        .bg {
+            position: absolute;
+            background: rgb(131, 58, 180);
+            background: $BG;
+            z-index: 1;
+            margin: 4rem 6rem;
+            opacity: 0.2;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            animation-name: bg;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+    }
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    color: aliceblue;
+    height: 100vh;
+    h1 {
+            font-size: 2rem;
+            color: $Text;
+            // width: 40vw;
+            font-weight: 100;
+        }
+    .feature_grid{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 1rem;
+    // flex-wrap: wrap;
+    margin: 0 20vw;
+    // &:last-of-type{
+    //     margin-bottom: 2rem;
+    //     // color: #833ab4;
+    //     width: vw;
+
+    // }
+    .feature{
+        // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // flex-direction: column;
+    margin: 1rem;
+    width: 20vw;
+    h2{
+        font-size: 1.5rem;
+        color: $Text;
+        font-weight: 100;
+    }
+    p{
+        font-size: 1rem;
+        color: $Subtext1;
+        font-weight: 100;
+        line-height: 24px;
+        text-align: justify;
+    }
+    }
+    }
+}
+.laptop{
+    width: 100vw;
+    height: 100vh;
+    color: $Text;
+    img{
+        // width: 100%;
+        height: 90vh;
+        margin: 0 10vw;
+        margin-top: 10vh;
+    }
+    
+}
+.content{
+        color: $Text;
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 2rem;
+        height: 40vh;
+        h2{
+            font-size: 2rem;
+            color: $Text;
+            // width: 40vw;
+            font-weight: 100;
+        }
+        p{
+            font-size: 1rem;
+            color: $Subtext1;
+            width: 80vw;
+
+            text-align: justify;
+        }
+    }
+
+@keyframes example {
+    0% {
+        transform: translateY(20px);
+    }
+
+    50% {
+        transform: translateY(1px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+@keyframes bg {
+    0% {
+        box-shadow: rgb(131, 58, 180) 10px 10px 20px 10px,
+            rgb(131, 58, 180) -10px -10px 20px 10px;
+    }
+
+    50% {
+        box-shadow: rgb(131, 58, 180) 1px 1px 20px 20px,
+            rgb(131, 58, 180) -1px -1px 20px 20px;
+    }
+
+    100% {
+        box-shadow: rgb(131, 58, 180) 10px 10px 20px 10px,
+            rgb(131, 58, 180) -10px -10px 20px 10px;
+    }
+}

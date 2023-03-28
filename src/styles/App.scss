@@ -1,0 +1,16 @@
+@import './Colors.scss';
+// * {
+//     // cursor: url(https://ani.cursors-4u.net/others/oth-9/oth893.cur), auto !important;
+// }
+body{
+    background-color: $Crust;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: $Crust;
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar {
+//   width: 10px;
+display: none;
+}
