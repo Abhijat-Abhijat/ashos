@@ -35,7 +35,7 @@ function Download() {
             </p>
             <button className="card-button" onClick={handleClick}>Fetch and Download</button>
             {downloadUrl && (
-              <button className="card-button" onClick={handleDownload}>Download ashos.iso</button>
+              <button className="card-button second" onClick={handleDownload}>Download ashos.iso</button>
             )}
           </div>
         </div>
