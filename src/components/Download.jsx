@@ -8,7 +8,7 @@ function Download() {
       .then((response) => response.json())
       .then((data) => {
         const asset = data.assets.find(
-          (asset) => asset.name === "ashos-04.11-x86_64.iso"
+          (asset) => asset.name === "ashos-05.11-x86_64.iso"
         );
         setDownloadUrl(asset.browser_download_url);
       });
