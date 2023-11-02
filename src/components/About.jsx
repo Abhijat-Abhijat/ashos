@@ -37,17 +37,17 @@ function About() {
     {
       name: "Abhijat",
       description: "Creator of ASH OS",
-      github: "https://github.com/Abhijat-Abhijat",
+      linkedin: "https://www.linkedin.com/in/abhijat-profile/",
     },
     {
-      name: "Himanshu",
+      name: "Himanshu Gaikwad",
       description: "Creator of ASH OS",
-      github: "https://github.com/ghostx31",
+      linkedin: "https://www.linkedin.com/in/himanshu-gaikwad/",
     },
     {
-      name: "Sourabh",
+      name: "Sourabh Kumar Jha",
       description: "Creator of ASH OS",
-      github: "https://github.com/Abhijat-Abhijat",
+      linkedin: "https://www.linkedin.com/in/sourabh-kumar-jha/",
     },
   ];
 
@@ -81,7 +81,7 @@ function About() {
               <h3>{creator.name}</h3>
               <h4>{creator.description}</h4>
               <div style={creatorListStyle}>
-                <a href={creator.github}>
+                <a href={creator.linkedin}>
                   <h4>Connect</h4>
                 </a>
               </div>
