@@ -28,7 +28,7 @@ function Home() {
       <section>
         <div className="features">
           <h1>Never walk , when you can run</h1>
-          <div className="feature_grid">
+          {/* <div className="feature_grid">
             <div className="feature">
               <h2>Make Your Job Easier</h2>
               <p>
@@ -71,7 +71,7 @@ function Home() {
                 you get your work done faster.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
       <section>
@@ -79,7 +79,7 @@ function Home() {
           <img src={lapPic} alt="" />
         </div>
         <div className="content">
-          <h2>GNOME Shell</h2>
+          {/* <h2>GNOME Shell</h2>
           <p>
             Every part of GNOME Shell has been designed to make it simple and
             easy to use. The Activities Overview is an easy way to access all
@@ -88,7 +88,7 @@ function Home() {
             messages. Having everything in one place is convenient and means
             that you don't have to learn your way through a maze of different
             technologies.
-          </p>
+          </p> */}
         </div>
       </section>
     </>

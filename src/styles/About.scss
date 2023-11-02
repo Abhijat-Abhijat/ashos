@@ -1,0 +1,24 @@
+@import "./Colors.scss";
+.about {
+  h1 {
+    color: $Text;
+    text-align: center;
+  }
+
+  p {
+    color: $Subtext1;
+    text-align: justify;
+  }
+  h3,
+  h4 {
+    text-align: center;
+  }
+  a {
+    color: $Text;
+    text-decoration: none;
+    &:hover {
+      color: $Sapphire;
+      text-decoration: none;
+    }
+  }
+}

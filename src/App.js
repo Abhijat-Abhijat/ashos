@@ -8,7 +8,6 @@ import Download from "./components/Download";
 import Commnunity from "./components/Community";
 import Docs from "./components/Docs";
 
-
 function App() {
   return (
     <>
@@ -18,8 +17,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/download" element={<Download />} />
-        <Route path="/community" element={<Commnunity />} />
-        <Route path="/docs" element={<Docs />} />
+          <Route path="/community" element={<Commnunity />} />
+          <Route path="/docs" element={<Docs />} />
         </Routes>
       </Router>
       <Footer />

@@ -12,8 +12,8 @@ function Header() {
       </div>
       <div className="right no-underline flex">
         <a href="/download">GET ASH OS</a>
-        <a href="/docs">DOCUMENTATION</a>
-        <a href="/communityy">COMMUNITY</a>
+        <a href="https://github.com/ghostx31/ash-os/wiki">DOCUMENTATION</a>
+        <a href="/community">COMMUNITY</a>
         <a href="/about">ABOUT</a>
       </div>
     </nav>
