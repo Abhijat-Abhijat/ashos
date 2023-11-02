@@ -41,12 +41,12 @@ function About() {
     },
     {
       name: "Himanshu",
-      description: "Developer & Designer",
+      description: "Creator of ASH OS",
       github: "https://github.com/ghostx31",
     },
     {
       name: "Sourabh",
-      description: "Software Engineer",
+      description: "Creator of ASH OS",
       github: "https://github.com/Abhijat-Abhijat",
     },
   ];
